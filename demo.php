@@ -43,7 +43,7 @@
   // setting value using dynamic constructor.
   // put (data_member, "value")
   $s1->__set("year", "SY");
-  //demo is not data member of class still it creats setter for that
+  // "demo" is not data member of class still it creats setter for that
   //this is how the setter is created.
   //it's useful when any object wants extra propery than other objects    .
   $s1->__set("demo", "Trying to make Setter for non data Member of Class");
